@@ -75,24 +75,55 @@ body {
   margin-bottom: 30px;
 }
 
-#main-content section div{
-	color: #000;
-	background-color: #ccccb3;
+
+#main-content section section{
+  color: #000;
+
 } 
 
-#long-parag-heading {
-  padding-top: 10px; 
-  margin: 5px auto 20px;
-}
-#chicken p{
-  text-align: left;
-  padding: 0px 45px 0px;
+div#marginizer{
+  background-color: #ccccb3;
 }
 
+#Chicken, #Beef, #Sushi {
+  padding-top: 10px; 
+  margin: 5px auto 20px;
+  
+}
+
+section.box{
+  margin-bottom: 10px;	
+  padding:0 1% 0;
+}
+
+section.box p{
+  text-align: left;
+  padding: 0px 5px 0px;
+
+}
+/*
+@media (min-width: 992px){ 
+  section.box{
+    width:30%;		
+    margin:0 1.6% 30px;  
+  }
+}
+
+@media (min-width: 767px) and (max-width: 992px){
+  section.box{
+    width:48%;		
+    margin:0 1% 10px;  
+  }
+
+}
+*/
 @media (max-width: 767px) {
-  #long-parag{
+  /*#long-parag{
   	margin-left: 20px;
   	margin-right: 20px; 
+  }*/
+  section.box p{
+  	font-size: 2vw;
   }
 	
 }
